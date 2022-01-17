@@ -53,8 +53,7 @@ for (let i = 0; i < hacker2.length; i++) {
         }
 
     
-
-console.log (reversedName2)
+console.log (`${hacker2.charAt(hacker2.length-1)} ${reversedName2}`)
 
 
 if("hacker1".localeCompare("hacker2")) {
@@ -66,4 +65,3 @@ if("hacker1".localeCompare("hacker2")) {
   else{
     console.log(`What?! You both have the same name?${hacker2}`);
   }
- 
